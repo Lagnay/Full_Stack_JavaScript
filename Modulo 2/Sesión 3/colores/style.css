@@ -1,0 +1,45 @@
+table{
+    margin: 1px;
+    border: black 1px solid;
+}
+#ROJO{
+    background-color: red;
+}
+#BLANCO{
+    background-color: white;
+    
+}
+#VERDE{
+    background-color: green;
+}
+#GRIS{
+    background-color: gray;
+}
+#CAFE{
+    background-color: brown;
+}
+#AZUL{
+    background-color: blue;
+}
+#VIOLETA{
+    background-color: violet;
+}
+#ROSADO{
+    background-color: pink;
+}
+#TURQUESA{
+    background-color: turquoise;
+}
+#NARANJO{
+    background-color: orange;
+}
+#PURPURA{
+    background-color: purple;
+}
+#AMARILLO{
+    background-color: yellow;
+}
+#NEGRO{
+    background-color: black;
+    color: white;
+}

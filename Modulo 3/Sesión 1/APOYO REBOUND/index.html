@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Portal Eport</title>
+</head>
+
+<body>
+    <div class="container" id="welcomeBox">
+        <h1><b>Bienvenido a la plataforma <i>Eport</i></b></h1>
+        <h3>Aquí podrá encontrar la información de vuelos más reciente en nuestro aeropuerto.</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="column" id="time">
+            <h3>Hora:</h3>
+            <h1 id="insertTime">15:11</h1>
+        </div>
+        <div class="column" id="date">
+            <h3>Fecha:</h3>
+            <h1 id="insertDate">30-12-2020</h1>
+        </div>
+    </div>
+    <div class="container" id="flightBox">
+        <h1><b>El vuelo más próximo:</b></h1>
+        <h3>Número de vuelo: <em id="flightNumber">1234</em></h3>
+        <h3>Terminal: <em id="terminalNumber">14</em></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
